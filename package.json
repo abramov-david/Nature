@@ -1,0 +1,22 @@
+{
+  "name": "nature",
+  "version": "1.0.0",
+  "description": "modern website landing with css and html magic",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abramov-david/Nature.git"
+  },
+  "author": "David Abramov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abramov-david/Nature/issues"
+  },
+  "homepage": "https://github.com/abramov-david/Nature#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
